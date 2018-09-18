@@ -1,5 +1,5 @@
 # FMCW_Volcano_Radar
-2018-2019 Barrett Honors Thesis for Andrew Xi and Matthew Lee
+2018-2019 Barrett Honors Thesis for [Andrew Xi](andrew.xi@asu.edu) and [Matthew Lee](matthewlee@asu.edu)
 
 This repository contains the MATLAB and Python code used for the volcanic ash radar. The radar is built using a
 Collaboration for Astronomy Signal Processing and Electronics Research ([CASPER](https://casper.berkeley.edu/wiki/Main_Page)) field-programmable gate array
