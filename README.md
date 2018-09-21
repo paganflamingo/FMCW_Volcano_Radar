@@ -20,4 +20,8 @@ This project is directed by [Dr. Christopher Groppi](https://isearch.asu.edu/pro
 chirp = load('chirpwaveform.dat');
 S0 = chirp(:,1);
 S1 = chirp(:,2);
+S0 = transpose(S0);
+S1 = transpose(S1);
+% S0 and S1 now contain the signal vectors
+% to be uploaded into ROM0 and ROM1, respectively
 ```
