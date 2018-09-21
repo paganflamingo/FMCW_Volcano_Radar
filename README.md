@@ -13,4 +13,10 @@ This project is directed by [Dr. Christopher Groppi](cgroppi@asu.edu) with the S
 
 [waveform.m](https://github.com/powerfulmandrew/FMCW_Volcano_Radar/blob/master/waveform.m) contains the code used to generate the chirp waveform vectors.
 
-[chirpwaveform.dat](https://github.com/powerfulmandrew/FMCW_Volcano_Radar/blob/master/chirpwaveform.dat) contains the two signal vectors in a MATLAB .dat file format. This can be used to directly load the data into MATLAB without having to regenerate the data.
+[chirpwaveform.dat](https://github.com/powerfulmandrew/FMCW_Volcano_Radar/blob/master/chirpwaveform.dat) contains the two signal vectors in a MATLAB .dat file format. This can be used to directly load the data into MATLAB without having to regenerate the data. To load in MATLAB, use
+
+```matlab
+chirp = load('chirpwaveform.dat');
+S0 = chirp(:,1);
+S1 = chirp(:,2);
+```
