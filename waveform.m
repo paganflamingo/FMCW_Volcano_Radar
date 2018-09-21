@@ -67,11 +67,13 @@ chirp = sin(w.*t);                      % Chirp signal as amplitude vs time
 % wave = load('chirpwaveform.dat');
 % S0 = wave(:,1);
 % S1 = wave(:,2);
+% S0 = transpose(S0);
+% S1 = transpose(S1);
 % clear wave;
 % 
 % t0 = t(1:2:65536);
 % t1 = t(2:2:65536);
-% plot(t0,S0,'+',t1,S1,'+',t,chirp,'-');
+% plot(t0,S0,'o',t1,S1,'o',t,chirp,'-');
 % xlim([0,1e-6]);
 
 %% Split into even and odd vectors
@@ -79,10 +81,13 @@ chirp = sin(w.*t);                      % Chirp signal as amplitude vs time
 S0 = chirp(1:2:65536);
 S1 = chirp(2:2:65536);
 
-% Uncomment the below to view the size of each vector
+% Uncomment the below to check if vector lengths match
 
-% size(S0)
-% size(S1)
+% if (size(S0) == size(S1))
+%     display('vector lengths match');
+% else
+%     display('vector lengths do not match');
+% end
 
 %% Combine signal into one file
 
