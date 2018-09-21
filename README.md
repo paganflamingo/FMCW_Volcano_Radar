@@ -1,5 +1,5 @@
 # FMCW_Volcano_Radar
-2018-2019 Barrett Honors Thesis for [Andrew Xi](https://isearch.asu.edu/profile/1787656) and [Matthew Lee](https://isearch.asu.edu/profile/2859444)([GitHub](https://github.com/Thisismatt)), both students of the School of Electrical, Energy, and Energy Engineering ([ECEE](https://ecee.engineering.asu.edu/)) at Arizona State University ([ASU](https://asu.edu))
+2018-2019 Barrett Honors Thesis for [Andrew Xi](https://isearch.asu.edu/profile/1787656) and [Matthew Lee](https://isearch.asu.edu/profile/2859444) ([GitHub](https://github.com/Thisismatt)), both students of the School of Electrical, Energy, and Energy Engineering ([ECEE](https://ecee.engineering.asu.edu/)) at Arizona State University ([ASU](https://asu.edu))
 
 ## Introduction
 
