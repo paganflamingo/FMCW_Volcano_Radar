@@ -1,10 +1,15 @@
 %% Waveform Generator - Andrew Xi, Matthew Lee - ASU
 
-%% Parameters
+%% Initialize
+
+clear all;
+clc;
+
+%% Define Parameters
 
 % Here we define relevant parameters. Not all will be used in the design.
 
-clk_dac = 50e6;                        % The ROACH will be clocked at 50 MHz
+clk_dac = 50e6;                         % The ROACH will be clocked at 50 MHz
 bw_dac = clk_dac / 2;
 bw_signal = 1e6;                        % The pre-multiplication signal will have a bandwidth of 1 MHz
 bw_chirp = 16 * bw_signal;
@@ -23,14 +28,14 @@ a = bw_chirp / T;
 %% Find FFT parameters
 
 bins = 2 ^ 14;
-f_bin = bw_dac / bins;                 % Frequency range of each bin
+f_bin = bw_dac / bins;                  % Frequency range of each bin
 d_bin = c*f_bin / (2*a);                % Distance represented by each bin
 
 %% Signal frequency
 
-t_clk = 1/clk_dac;                     % Clock period
+t_clk = 1/clk_dac;                      % Clock period
 t = 0:t_clk/2:T;                        % Create vector from 0 s to chirp period
-s = 0:(1e6)/(clk_dac*T)/2:1e6;         % Create vector from 0 MHz to 1 MHz with same length as t
+s = 0:(1e6)/(clk_dac*T)/2:1e6;          % Create vector from 0 MHz to 1 MHz with same length as t
 s = 10e6+s;                             % Shift frequencies to 10 MHz to 11 MHz
 
 %% Define chirp
@@ -54,6 +59,21 @@ chirp = sin(w.*t);                      % Chirp signal as amplitude vs time
 % ylabel('Frequency (Hz)');
 % xlabel('Time (s)');
 
+%% Load chirp
+
+% Uncomment and run this section only if chirpwaveform.dat is already
+% downloaded and present in current path
+
+% wave = load('chirpwaveform.dat');
+% S0 = wave(:,1);
+% S1 = wave(:,2);
+% clear wave;
+% 
+% t0 = t(1:2:65536);
+% t1 = t(2:2:65536);
+% plot(t0,S0,'+',t1,S1,'+',t,chirp,'-');
+% xlim([0,1e-6]);
+
 %% Split into even and odd vectors
 
 S0 = chirp(1:2:65536);
@@ -63,6 +83,12 @@ S1 = chirp(2:2:65536);
 
 % size(S0)
 % size(S1)
+
+%% Combine signal into one file
+s0 = transpose(S0);
+s1 = transpose(S1);
+signal = [s0(:) s1(:)];                 % Concatenate signal vectors into matrix
+save('c:\Users\andysey\Documents\MATLAB\chirpwaveform.dat','signal','-ascii');
 
 %% Calculate period of chirp
 
