@@ -7,7 +7,7 @@ This repository contains the MATLAB and Python code used for the volcanic ash ra
 Collaboration for Astronomy Signal Processing and Electronics Research ([CASPER](https://casper.berkeley.edu/wiki/Main_Page)) field-programmable gate array
 (FPGA) named the Reconfigurable Open Architecture Computing Hardware 2 ([ROACH2](https://casper.berkeley.edu/wiki/ROACH2)).
 
-This project is directed by [Dr. Christopher Groppi](https://isearch.asu.edu/profile/1399420) (<cgroppi@asu.edu>) with the School of Earth and Space Exploration ([SESE](https://sese.asu.edu/)) with the assistance of [Dr. Philip Mauskopf](https://isearch.asu.edu/profile/1863516) (<philip.mauskopf@asu.edu>), also of SESE. It is also directly aided by [Samuel Gordon](https://isearch.asu.edu/profile/2331576) and [Adrian Sinclair](https://isearch.asu.edu/profile/1536050).
+This project is directed by [Dr. Christopher Groppi](https://isearch.asu.edu/profile/1399420) (<cgroppi@asu.edu>) with the School of Earth and Space Exploration ([SESE](https://sese.asu.edu/)) with the assistance of [Dr. Philip Mauskopf](https://isearch.asu.edu/profile/1863516) (<philip.mauskopf@asu.edu>), also of SESE. It is also directly aided by [Samuel Gordon](https://isearch.asu.edu/profile/2331576) (<sbg2133@gmail.com>) and [Adrian Sinclair](https://isearch.asu.edu/profile/1536050) (<aksincla@asu.edu>).
 
 ## Files
 [parameters.m](parameters.m) contains the calculations used to define the parameters of the radar.
