@@ -85,10 +85,14 @@ S1 = chirp(2:2:65536);
 % size(S1)
 
 %% Combine signal into one file
-s0 = transpose(S0);
-s1 = transpose(S1);
-signal = [s0(:) s1(:)];                 % Concatenate signal vectors into matrix
-save('c:\Users\andysey\Documents\MATLAB\chirpwaveform.dat','signal','-ascii');
+
+% Uncomment the below to save file as .dat
+
+% s0 = transpose(S0);
+% s1 = transpose(S1);
+% signal = [s0(:) s1(:)];                 % Concatenate signal vectors into matrix
+% 
+% save('path\to\MATLAB\chirpwaveform.dat','signal','-ascii');
 
 %% Calculate period of chirp
 
