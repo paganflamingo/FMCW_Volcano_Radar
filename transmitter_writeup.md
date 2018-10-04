@@ -14,16 +14,16 @@ The setup used the following components:
 ## 2. Setup
 The compiled bitstream was uploaded using iPython:
 ```python
-import casperfpga									#import casperfpga library
-fpga = casperfpga.KatcpFpga('192.168.40.67')		#connect to ROACH2 using IP
-fpga.upload_to_ram_and_program('/path/to/file.fpg')	#upload to RAM
-fpga.listdev()										#list available variables
+import casperfpga																			#import casperfpga library
+fpga = casperfpga.KatcpFpga('192.168.40.67')					#connect to ROACH2 using IP
+fpga.upload_to_ram_and_program('/path/to/file.fpg')		#upload to RAM
+fpga.listdev()																				#list available variables
 
-fpga.write_int('dac_reset',1)							#reset (1 is press, 0 is release)
+fpga.write_int('dac_reset',1)													#reset (1 is press, 0 is release)
 fpga.write_int('dac_reset',0)
 
 fpga.write_int('start_dac',0)
-fpga.write_int('start_dac',1)						#enable DAC
+fpga.write_int('start_dac',1)													#enable DAC
 ```
 
 The signal generator parameters were calculated using a desired 0 dBm clock signal. Based on the 50 ohm impedance, this yielded the following parameters
