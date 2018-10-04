@@ -3,6 +3,7 @@ This write–up concerns the current progress on the transmitter portion of the 
 
 ## 1. Components
 The setup used the following components:
+
 |Name|Quantity|
 |:---|---:|
 |ROACH2|1|
