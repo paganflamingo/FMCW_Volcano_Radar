@@ -1,5 +1,5 @@
 # FMCW_Volcano_Radar
-2018-2019 Barrett Honors Thesis for [Andrew Xi](https://isearch.asu.edu/profile/1787656) (<andrew.xi@asu.edu>) and [Matthew Lee](https://isearch.asu.edu/profile/2859444) ([GitHub](https://github.com/Thisismatt)) (<matthewlee@asu.edu>), both students of the School of Electrical, Energy, and Energy Engineering ([ECEE](https://ecee.engineering.asu.edu/)) at Arizona State University ([ASU](https://asu.edu))
+2018-2019 Barrett Honors Thesis for [Andrew Xi](mailto:andrew.xi@asu.edu) and [Matthew Lee](mailto:matthewlee@asu.edu) ([GitHub](https://github.com/Thisismatt)), both students of the School of Electrical, Energy, and Energy Engineering ([ECEE](https://ecee.engineering.asu.edu/)) at Arizona State University ([ASU](https://asu.edu))
 
 ## Introduction
 
@@ -7,7 +7,7 @@ This repository contains the MATLAB and Python code used for the volcanic ash ra
 Collaboration for Astronomy Signal Processing and Electronics Research ([CASPER](https://casper.berkeley.edu/wiki/Main_Page)) field-programmable gate array
 (FPGA) named the Reconfigurable Open Architecture Computing Hardware 2 ([ROACH2](https://casper.berkeley.edu/wiki/ROACH2)).
 
-This project is directed by [Dr. Christopher Groppi](https://isearch.asu.edu/profile/1399420) (<cgroppi@asu.edu>) with the School of Earth and Space Exploration ([SESE](https://sese.asu.edu/)) with the assistance of [Dr. Philip Mauskopf](https://isearch.asu.edu/profile/1863516) (<philip.mauskopf@asu.edu>), also of SESE. It is also directly aided by [Samuel Gordon](https://isearch.asu.edu/profile/2331576) (<sbg2133@gmail.com>) and [Adrian Sinclair](https://isearch.asu.edu/profile/1536050) (<aksincla@asu.edu>).
+This project is directed by [Dr. Christopher Groppi](mailto:cgroppi@asu.edu) with the School of Earth and Space Exploration ([SESE](https://sese.asu.edu/)) with the assistance of [Dr. Philip Mauskopf](mailto:philip.mauskopf@asu.edu), also of SESE. It is also directly aided by [Samuel Gordon](mailto:sbg2133@gmail.com) and [Adrian Sinclair](mailto:aksincla@asu.edu).
 
 ## Files
 [parameters.m](parameters.m) contains the calculations used to define the parameters of the radar.
