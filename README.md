@@ -25,6 +25,9 @@ S1 = transpose(S1);
 % S0 and S1 now contain the signal vectors to be uploaded into ROM0 and ROM1, respectively
 ```
 
-[transmitter_writeup.md](transmitter_writeup.md) contains a writeup describing the current progress of the project.
-
 [upload.py](upload.py) contains a basic Python script used for uploading compiled .fpg files to the RAM of the ROACH2.
+
+## Updates
+
+[transmitter_writeup.md](transmitter_writeup.md), completed on 10/4/2018, contains a description of the heretofore completed work.
+
