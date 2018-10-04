@@ -43,3 +43,5 @@ The output waveform uploaded was a simple sine wave.
 
 ## 4. Next Steps
 We need to change the waveform on the ROM to the chirp generated in MATLAB. However, currently the .slx design does not compile when using a MATLAB vector handle, and we may need to directly use the expression that generates the vector instead.
+
+In addition, we need to create another waveform which does not have a sawtooth frequency characteristic, but rather a "hill" which consists of the sawtooth for one period and then the same chirp backwards for the consecutive period.
