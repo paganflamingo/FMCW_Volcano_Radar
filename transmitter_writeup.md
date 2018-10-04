@@ -4,7 +4,7 @@ This write–up concerns the current progress on the transmitter portion of the 
 ## 1. Components
 The setup used the following components:
 |Name|Quantity|
-|:--|--:|
+|:---|---:|
 |ROACH2|1|
 |Signal Generator|1|
 |High Speed Oscilloscope|1|
@@ -29,7 +29,7 @@ fpga.write_int('start_dac',1)				#enable DAC
 The signal generator parameters were calculated using a desired 0 dBm clock signal. Based on the 50 ohm impedance, this yielded the following parameters
 
 |Parameter||
-|:--|--:|
+|:---|---:|
 |Voltage|600 mVpp*|
 |Frequency|20kHz|
 
