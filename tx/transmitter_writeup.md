@@ -38,6 +38,34 @@ The signal generator parameters were calculated using a desired 0 dBm clock sign
 
 The signal generator output was connected to the power splitter, which was connected to the clock input of the DAC/ADC board. The output of the DAC side was connected directly to the oscilloscope.
 
+```mermaid
+graph TB
+
+	Oscope(Oscilloscope)
+	PowerSplitter(2 Way Power Splitter)
+	SigGen(Signal Generator)
+	DAC(DAC)
+	ADC(ADC)
+	FPGA(ROACH2)
+
+	subgraph ROACH
+		subgraph DAC/ADC
+			DAC
+			ADC
+		end
+		subgraph FPGA
+			FPGA
+		end
+	end
+	
+	SigGen == Clock ==> PowerSplitter
+	PowerSplitter == Clock ==> DAC
+	PowerSplitter == Clock ==> ADC
+	DAC == Clock ==> FPGA
+	FPGA == Signal ==> DAC
+	DAC == Signal ==> Oscope
+```
+
 ## 3. Waveform
 The output waveform uploaded was a simple sine wave.
 ![Sine Waveform](https://i.imgur.com/a4cmzpB.jpg)
