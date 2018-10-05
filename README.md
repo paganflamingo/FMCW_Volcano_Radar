@@ -10,7 +10,16 @@ Collaboration for Astronomy Signal Processing and Electronics Research ([CASPER]
 This project is directed by [Dr. Christopher Groppi](mailto:cgroppi@asu.edu) with the School of Earth and Space Exploration ([SESE](https://sese.asu.edu/)) with the assistance of [Dr. Philip Mauskopf](mailto:philip.mauskopf@asu.edu), also of SESE. It is also directly aided by [Samuel Gordon](mailto:sbg2133@gmail.com) and [Adrian Sinclair](mailto:aksincla@asu.edu).
 
 ## Files
+
+### General
+
 [parameters.m](parameters.m) contains the calculations used to define the parameters of the radar.
+
+[upload.py](upload.py) contains a basic Python script used for uploading compiled .fpg files to the RAM of the ROACH2.
+
+### Transmitter files
+
+[transmitter_writeup.md](tx/transmitter_writeup.md), completed on 10/4/2018, contains a description of the heretofore completed work.
 
 [waveform.m](tx/waveform.m) contains the code used to generate the chirp waveform vectors. The waveform has a sawtooth frequency vs time shape.
 
@@ -24,10 +33,3 @@ S0 = transpose(S0);
 S1 = transpose(S1);
 % S0 and S1 now contain the signal vectors to be uploaded into ROM0 and ROM1, respectively
 ```
-
-[upload.py](upload.py) contains a basic Python script used for uploading compiled .fpg files to the RAM of the ROACH2.
-
-## Updates
-
-[transmitter_writeup.md](tx/transmitter_writeup.md), completed on 10/4/2018, contains a description of the heretofore completed work.
-
