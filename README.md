@@ -12,9 +12,9 @@ This project is directed by [Dr. Christopher Groppi](mailto:cgroppi@asu.edu) wit
 ## Files
 [parameters.m](parameters.m) contains the calculations used to define the parameters of the radar.
 
-[waveform.m](waveform.m) contains the code used to generate the chirp waveform vectors. The waveform has a sawtooth frequency vs time shape.
+[waveform.m](tx/waveform.m) contains the code used to generate the chirp waveform vectors. The waveform has a sawtooth frequency vs time shape.
 
-[chirpwaveform.dat](chirpwaveform.dat) contains the two signal vectors in a MATLAB .dat file format. This can be used to directly load the data into MATLAB without having to regenerate the data. To load in MATLAB, use
+[chirpwaveform.dat](tx/chirpwaveform.dat) contains the two signal vectors in a MATLAB .dat file format. This can be used to directly load the data into MATLAB without having to regenerate the data. To load in MATLAB, use
 
 ```matlab
 chirp = load('chirpwaveform.dat');
@@ -29,5 +29,5 @@ S1 = transpose(S1);
 
 ## Updates
 
-[transmitter_writeup.md](transmitter_writeup.md), completed on 10/4/2018, contains a description of the heretofore completed work.
+[transmitter_writeup.md](tx/transmitter_writeup.md), completed on 10/4/2018, contains a description of the heretofore completed work.
 
