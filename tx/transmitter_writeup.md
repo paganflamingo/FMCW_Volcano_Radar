@@ -38,6 +38,8 @@ The signal generator parameters were calculated using a desired 0 dBm clock sign
 
 The signal generator output was connected to the power splitter, which was connected to the clock input of the DAC/ADC board. The output of the DAC side was connected directly to the oscilloscope.
 
+![Setup](https://i.imgur.com/ZRiVCGI.png)
+
 ## 3. Waveform
 The output waveform uploaded was a simple sine wave.
 ![Sine Waveform](https://i.imgur.com/a4cmzpB.jpg)
