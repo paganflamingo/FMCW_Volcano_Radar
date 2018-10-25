@@ -33,3 +33,15 @@ S0 = transpose(S0);
 S1 = transpose(S1);
 % S0 and S1 now contain the signal vectors to be uploaded into ROM0 and ROM1, respectively
 ```
+
+### Receiver files
+
+[firmware_registers.txt](spectrometer/firmware_registers.txt) contains the definition of certain variable handles for the Python function scripts.
+
+[spec_plot.py](spectrometer/spec_plot.py) is the Python script for uploading the design to the ROACH2 as well as plotting the FFT. To run, download all three receiver files, then change the paths in spec_plot.py to find the files, then use
+
+```python
+run /path/to/spec_plot.py
+```
+
+[trans_spec_v0.fpg](spectrometer/trans_spec_v0.fpg) is the compiled design for uploading to the ROACH2 FPGA.
