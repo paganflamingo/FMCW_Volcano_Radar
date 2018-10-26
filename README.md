@@ -43,5 +43,6 @@ S1 = transpose(S1);
 ```python
 run /path/to/spec_plot.py
 ```
+[dynamic_plot.py](spectrometer/dynamic_plot.py) is Python script to read and plot spectrum of bins of FFT of data that is read. This script will have some parameters for the functions such as plotFFT and plotADC. The same approach as spec_plot.py is used to run this script.
 
 [trans_spec_v0.fpg](spectrometer/trans_spec_v0.fpg) is the compiled design for uploading to the ROACH2 FPGA.
