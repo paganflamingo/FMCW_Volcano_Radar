@@ -22,6 +22,7 @@ This project is directed by [Dr. Christopher Groppi](mailto:cgroppi@asu.edu) wit
 [transmitter_writeup.md](tx/transmitter_writeup.md), completed on 10/4/2018, contains a description of the heretofore completed work.
 
 [waveform.m](tx/waveform.m) contains the code used to generate the chirp waveform vectors. The waveform has a sawtooth frequency vs time shape.
+[chirp.py](tx/chirp.py) contains the sane cide as waveform in python script. 
 
 [chirpwaveform.dat](tx/chirpwaveform.dat) contains the two signal vectors in a MATLAB .dat file format. This can be used to directly load the data into MATLAB without having to regenerate the data. To load in MATLAB, use
 
