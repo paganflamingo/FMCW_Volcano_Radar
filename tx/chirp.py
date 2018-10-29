@@ -1,4 +1,4 @@
-## Waveform Generator - Andrew Xi, Matthew Lee - ASU
+## Waveform Generator - Andrew Xi, Matthew Lee - ASU 
 
 import numpy as np
 import matplotlib.lines
