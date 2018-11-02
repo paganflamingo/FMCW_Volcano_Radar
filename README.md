@@ -19,7 +19,7 @@ This project is directed by [Dr. Christopher Groppi](mailto:cgroppi@asu.edu) wit
 
 ### Transmitter files
 
-[transmitter_writeup.md](tx/transmitter_writeup.md), completed on 10/4/2018, contains a description of the heretofore completed work.
+[transmitter_writeup.md](tx/transmitter_writeup.md), completed on 10/4/2018, contains a description of the current progress on the transmitter.
 
 [waveform.m](tx/waveform.m) contains the code used to generate the chirp waveform vectors. The waveform has a sawtooth frequency vs time shape.
 
@@ -37,6 +37,8 @@ S1 = transpose(S1);
 ```
 
 ### Receiver files
+
+[spectrometer_writeup.md](spectrometer/spectrometer_writeup.md), completed on 11/2/2018, contains a description of the heretofore completed work.
 
 [firmware_registers.txt](spectrometer/firmware_registers.txt) contains the definition of certain variable handles for the Python function scripts.
 
