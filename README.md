@@ -48,7 +48,7 @@ S1 = transpose(S1);
 run /path/to/spec_plot.py
 ```
 
-[dynamic_plot.py](spectrometer/dynamic_plot.py) is the Python script to read and plot the spectrum of the input signal. It is different from spec_plot.py in that this script will have parameters for the functions such as plotFFT and plotADC. The same approach as spec_plot.py is used to run this script.
+[dynamic_plot.py](spectrometer/dynamic_plot.py) is the Python script to read and plot the spectrum of the input signal. It is different from spec_plot.py in that this script will have parameters for the functions such as plotFFT and plotADC. The same approach is used to run this script.
 
 ```python
 run /path/to/dynamic_plot.py
