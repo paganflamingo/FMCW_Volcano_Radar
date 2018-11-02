@@ -17,6 +17,8 @@ This project is directed by [Dr. Christopher Groppi](mailto:cgroppi@asu.edu) wit
 
 [upload.py](upload.py) contains a basic Python script used for uploading compiled .fpg files to the RAM of the ROACH2.
 
+[trans_spec_v0.fpg](trans_spec_v0.fpg) is the compiled design for uploading to the ROACH2 FPGA.
+
 ### Transmitter files
 
 [transmitter_writeup.md](tx/transmitter_writeup.md), completed on 10/4/2018, contains a description of the current progress on the transmitter.
@@ -53,5 +55,3 @@ run /path/to/spec_plot.py
 ```python
 run /path/to/dynamic_plot.py
 ```
-
-[trans_spec_v0.fpg](spectrometer/trans_spec_v0.fpg) is the compiled design for uploading to the ROACH2 FPGA.
