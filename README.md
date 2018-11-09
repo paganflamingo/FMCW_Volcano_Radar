@@ -25,7 +25,9 @@ This project is directed by [Dr. Christopher Groppi](mailto:cgroppi@asu.edu) wit
 
 [waveform.m](tx/waveform.m) contains the code used to generate the chirp waveform vectors. The waveform has a sawtooth frequency vs time shape.
 
-[chirp.py](tx/chirp.py) contains the same code as waveform.m in python script. 
+[up_chirp.py](tx/up_chirp.py) creates the same waveform as [waveform.m](tx/waveform.m) in Python script.
+
+[updown_chirp.py](tx/updown_chirp.py) creates a mirrored version of the waveform in [updown_chirp.py](tx/updown_chirp.py).
 
 [chirpwaveform.dat](tx/chirpwaveform.dat) contains the two signal vectors in a MATLAB .dat file format. This can be used to directly load the data into MATLAB without having to regenerate the data. To load in MATLAB, use
 
