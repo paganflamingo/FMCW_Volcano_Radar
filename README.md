@@ -46,13 +46,13 @@ S1 = transpose(S1);
 
 [firmware_registers.txt](spectrometer/firmware_registers.txt) contains the definition of certain variable handles for the Python function scripts.
 
-[spec_plot.py](spectrometer/spec_plot.py) is the Python script for uploading the design to the ROACH2 as well as plotting the FFT. To run, download all three receiver files, then change the paths in spec_plot.py to find the files, then use
+[spec_plot.py](spectrometer/spec_plot.py) is the Python script for uploading the design to the ROACH2 as well as plotting the FFT. To run, download all three receiver files, then change the paths in [spec_plot.py](spectrometer/spec_plot.py) to find the files, then use
 
 ```python
 run /path/to/spec_plot.py
 ```
 
-[dynamic_plot.py](spectrometer/dynamic_plot.py) is the Python script to read and plot the spectrum of the input signal. It is different from spec_plot.py in that this script will have parameters for the functions such as plotFFT and plotADC. The same approach is used to run this script.
+[dynamic_plot.py](spectrometer/dynamic_plot.py) is the Python script to read and plot the spectrum of the input signal. It is different from [spec_plot.py](spectrometer/spec_plot.py) in that this script will have parameters for the functions such as plotFFT and plotADC. The same approach is used to run this script.
 
 ```python
 run /path/to/dynamic_plot.py
