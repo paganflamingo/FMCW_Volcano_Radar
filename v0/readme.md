@@ -35,3 +35,4 @@ run /path/to/spec_plot.py
 
 ```python
 run /path/to/dynamic_plot.py
+```
