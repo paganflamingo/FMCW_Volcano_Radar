@@ -17,11 +17,11 @@ This project is directed by [Dr. Christopher Groppi](mailto:cgroppi@asu.edu) wit
 
 [upload.py](upload.py) contains a basic Python script used for uploading compiled .fpg files to the RAM of the ROACH2.
 
-### V0
+### [V0](v0)
 
 This folder contains previous progress of the radar.
 
-### V1
+### [V1](v1)
 
 This folder contains the current progress of the radar, including the bitstream for direct uploading to the FPGA.
 
