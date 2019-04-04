@@ -23,8 +23,10 @@ This folder contains previous progress of the radar.
 
 ### [V1](v1)
 
-This folder contains the current progress of the radar, including the bitstream for direct uploading to the FPGA.
+This folder contains previous progress of the radar.
 
-[trans_spec_v1.fpg](v1/trans_spec_v1.fpg) is the .fpg bitstream file for uploading to the ROACH2 board. It contains the completed 10-11 MHz chrip waveform.
+### [V2](v2)
 
-[trans_spec_v1.slx](v1/trans_spec_v1.slx) is the Simulink .slx block diagram used to generate [trans_spec_v1.fpg](v1/trans_spec_v1.fpg), and represents the heretofore most updated iteration of our design.
+This folder contains current progress of the radar, including the bitstream for direct uploading to the FPGA.
+
+[trans_spec_v2.fpg](v1/trans_spec_v2.fpg) is the .fpg bitstream file for uploading to the ROACH2 board. It contains the completed 10-11.5 MHz chirp waveform.
