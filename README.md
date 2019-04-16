@@ -11,6 +11,12 @@ This project is directed by [Dr. Christopher Groppi](mailto:cgroppi@asu.edu) wit
 
 ## Files
 
+### Thesis
+
+[Thesis.pdf](Thesis.pdf) is the completed and submitted Barrett Undergraduate Honors Thesis for Spring 2019, titled **Frequency--Modulated Continuous--Wave Millimeter--Band Radar for Volcanic Ash Detection**.
+
+[Thesis.zip](Thesis.zip) is the complete _LaTeX_ repository used to generate the PDF.
+
 ### General
 
 [parameters.m](parameters.m) contains the calculations used to define the parameters of the radar.
@@ -30,3 +36,4 @@ This folder contains previous progress of the radar.
 This folder contains current progress of the radar, including the bitstream for direct uploading to the FPGA.
 
 [trans_spec_v2.fpg](v1/trans_spec_v2.fpg) is the .fpg bitstream file for uploading to the ROACH2 board. It contains the completed 10-11.5 MHz chirp waveform.
+
